@@ -1,7 +1,8 @@
-/* .App {
+.App {
   text-align: center;
+  background-color: darkgray;
 }
-
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -43,14 +44,17 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  cursor: pointer;
 }
 
 .arrow {
   width: 100px;
   height: 100px;
-  background-image: url("./right-arrow.png") no-repeat center center;
+  background: url("./compass-arrow.svg") no-repeat center center;
   background-size: contain;
+  transition: transform 0.5s ease;
 }
+
 .heading {
   margin-top: 20px;
   font-size: 2rem;

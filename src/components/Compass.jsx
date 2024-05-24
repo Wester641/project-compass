@@ -145,7 +145,7 @@ export default function CipherCompass() {
       <div>pointDegree:{pointDegree}</div>
       <div>coords?.latitude:{coords?.latitude}</div>
       <div>coords?.longitude:{coords?.longitude}</div>
-      <h1>Hello CodeSandbox</h1>
+
       <div className="compass">
         <div className="arrow" />
         <div
